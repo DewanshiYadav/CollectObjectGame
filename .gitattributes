@@ -1,2 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+Collect-Objects-main/Assets/Editor/Migration/com.ptc.vuforia.engine-10.4.4.tgz filter=lfs diff=lfs merge=lfs -text
+Collect-Objects-main/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
+Collect-Objects-main/Library/PackageCache/com.ptc.vuforia.engine@98ada61de37a-1644838625000/Vuforia/Plugins/iOS/VuforiaEngine.framework/VuforiaEngine filter=lfs diff=lfs merge=lfs -text
+Collect-Objects-main/Packages/com.ptc.vuforia.engine-10.4.4.tgz filter=lfs diff=lfs merge=lfs -text
+Collect-Objects-main/Packages/com.ptc.vuforia.engine-10.5.5.tgz filter=lfs diff=lfs merge=lfs -text
